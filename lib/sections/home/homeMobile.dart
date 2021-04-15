@@ -55,13 +55,15 @@ class _HomeMobileState extends State<HomeMobile> {
                 Text(
                   "Satyam",
                   style: GoogleFonts.montserrat(
+                    color: Colors.red,
                       fontSize: height * 0.055,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Goyal",
+                  "Goyal.",
                   style: GoogleFonts.montserrat(
+                      color: Colors.white,
                       fontSize: height * 0.055, fontWeight: FontWeight.w500),
                 ),
                 SizedBox(

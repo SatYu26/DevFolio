@@ -73,8 +73,13 @@ class AboutDesktop extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
-                width: width * 0.055,
+              Expanded(
+                child: new Container(
+                    margin: const EdgeInsets.only(left: 10.0, right: 10.0),
+                    child: Divider(
+                      color: Colors.red,
+                      height: 36,
+                    )),
               ),
               for (int i = 0; i < kCommunityLogo.length; i++)
                 CommunityIconBtn(

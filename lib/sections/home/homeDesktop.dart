@@ -62,6 +62,7 @@ class HomeDesktop extends StatelessWidget {
                 Text(
                   "Satyam",
                   style: GoogleFonts.montserrat(
+                      color: Colors.red,
                       fontSize:
                           width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w100,
@@ -74,6 +75,9 @@ class HomeDesktop extends StatelessWidget {
                           width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w500,
                       letterSpacing: 5.0),
+                ),
+                SizedBox(
+                  height: height * 0.04,
                 ),
                 EntranceFader(
                   offset: Offset(-10, 0),

@@ -115,7 +115,10 @@ class _MainPageState extends State<MainPage> {
               padding: const EdgeInsets.all(8.0),
               child: MaterialButton(
                 hoverColor: kPrimaryColor,
-                onPressed: () => _scroll(index),
+                onPressed: () {
+                  _scroll(index);
+                  Navigator.of(context).pop();
+                },
                 child: Text(
                   childText,
                   style: TextStyle(color: Colors.white),
@@ -127,13 +130,19 @@ class _MainPageState extends State<MainPage> {
             padding: const EdgeInsets.all(8.0),
             child: MaterialButton(
                 hoverColor: kPrimaryColor,
-                onPressed: () => _scroll(index),
+                onPressed: () {
+                  _scroll(index);
+                  Navigator.of(context).pop();
+                },
                 child: ListTile(
                   leading: Icon(
                     icon,
                     color: kPrimaryColor,
                   ),
-                  title: Text(childText, style: TextStyle(fontSize: 20),),
+                  title: Text(
+                    childText,
+                    style: TextStyle(fontSize: 20),
+                  ),
                 )),
           );
   }
