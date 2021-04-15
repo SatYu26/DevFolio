@@ -17,4 +17,4 @@ crafted with <span style="color: #8b0000;">&hearts;</span> and Flutter by Satyam
 
 ## 📜 License
 
-`Portfolio-Code-Flutter` is available under the MIT license. See the LICENSE file for more info.
+`DevFolio` is available under the MIT license. See the LICENSE file for more info.
