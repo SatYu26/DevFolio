@@ -115,10 +115,7 @@ class _MainPageState extends State<MainPage> {
               padding: const EdgeInsets.all(8.0),
               child: MaterialButton(
                 hoverColor: kPrimaryColor,
-                onPressed: () {
-                  _scroll(index);
-                  Navigator.of(context).pop();
-                },
+                onPressed: () => _scroll(index),
                 child: Text(
                   childText,
                   style: TextStyle(color: Colors.white),
