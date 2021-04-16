@@ -24,7 +24,7 @@ class AboutMeText extends StatelessWidget {
       text: TextSpan(children: [
         TextSpan(
           text:
-              "Hi There! I'm Satyam, a Flutter developer, React Web Developer and open source contributor based in India.\n\n",
+              "Hi There! I'm Satyam Goyal, a Flutter developer, React Web Developer and open source contributor based in India.\n\n",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),
