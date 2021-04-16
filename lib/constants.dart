@@ -46,7 +46,7 @@ final kTools = ["Flutter", "Dart", "Python", "JavaScript", "C++"];
 final kTools1 = ["React.js", "HTML", "CSS",  "Node.js", "ML"];
 
 // services
-final kServicesIcons = [
+final kSkillsIcons = [
   "assets/services/app.png",
   "assets/services/ui.png",
   "assets/services/rapid.png",
@@ -54,7 +54,7 @@ final kServicesIcons = [
   "assets/services/open.png",
 ];
 
-final kServicesTitles = [
+final kSkillsTitles = [
   "Flutter App Development",
   "React Web Development",
   "Rapid Prototyping",
@@ -62,7 +62,7 @@ final kServicesTitles = [
   "Open Source - GitHub",
 ];
 
-final kServicesDescriptions = [
+final kSkillsDescriptions = [
   "I am experienced and skilled in app development using Flutter, also i am specially good at UI/UX designing part, and i am trying to improve my skills more and design Complete apps.",
   "Although it has not been too long since i started working on React.js, but still i have gained genuine skills and experience in web development through various projects.",
   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
@@ -70,7 +70,7 @@ final kServicesDescriptions = [
   "I love working for the community and give my contribution towards greater good, therefore i have been quite active in community and have made numerous contributions to many communities",
 ];
 
-final kServicesLinks = [
+final kSkillsLinks = [
   "https://drive.google.com/file/d/19PZLP-2fCmwDy2Zi9Ieuh5RyykNhbAM5/view?usp=sharing",
   "https://drive.google.com/file/d/1Bt2ZN18kwU9CKAOGXmrKruNSOhz-robB/view?usp=sharing",
   "https://www.fiverr.com/share/qjERXd",
@@ -134,7 +134,7 @@ final kContactDetails = [
 ];
 
 final kContactLinks = [
-  "https://github.com/SatYu26/Flash-Type",
-  "https://github.com/SatYu26/Wear-OS-Radio-Flutter",
+  "https://goo.gl/maps/BDgab7yZwauzKihu5",
+  "tel:+917550264699",
   "mailto:goyalsatyam8@gmail.com",
 ];

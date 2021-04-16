@@ -21,14 +21,15 @@ class HomeDesktop extends StatelessWidget {
             top: width < 1200 ? height * 0.15 : height * 0.1,
             right: width * 0.04,
             child: Opacity(
-              opacity: 0.9,
+              opacity: 0.8,
               child: EntranceFader(
                 offset: Offset(0, 0),
                 delay: Duration(seconds: 1),
                 duration: Duration(milliseconds: 800),
                 child: Image.asset(
                   'assets/1.png',
-                  height: width < 1200 ? height * 0.8 : height * 0.85,
+                  height: width < 1200 ? height * 0.8 : height * 0.85, colorBlendMode: BlendMode.color,
+                  color: Colors.black87.withOpacity(0.1),
                 ),
               ),
             ),

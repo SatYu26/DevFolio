@@ -10,7 +10,7 @@ import '../sections/contact/contact.dart';
 import '../sections/home/home.dart';
 import '../sections/navBar/navBarLogo.dart';
 import '../sections/portfolio/portfolio.dart';
-import '../sections/services/services.dart';
+import '../sections/skills/skills.dart';
 import '../widget/arrowOnTop.dart';
 import '../widget/footer.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -28,17 +28,17 @@ class _MainPageState extends State<MainPage> {
   ItemPositionsListener _itemPositionListener = ItemPositionsListener.create();
 
   final List<String> _sectionsName = [
-    "Home",
-    "About",
-    "Services",
-    "Projects",
-    "Contact"
+    "HOME",
+    "ABOUT",
+    "SKILLS",
+    "PROJECTS",
+    "CONTACT"
   ];
 
   final List<IconData> _sectionsIcons = [
     Icons.home,
     Icons.person,
-    Icons.settings,
+    Icons.palette,
     Icons.build,
     Icons.phone,
   ];
@@ -53,7 +53,7 @@ class _MainPageState extends State<MainPage> {
     } else if (i == 1) {
       return About();
     } else if (i == 2) {
-      return Services();
+      return Skills();
     } else if (i == 3) {
       return Portfolio();
     } else if (i == 4) {
@@ -118,7 +118,7 @@ class _MainPageState extends State<MainPage> {
                 onPressed: () => _scroll(index),
                 child: Text(
                   childText,
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white, fontSize: 15),
                 ),
               ),
             ),
@@ -138,7 +138,7 @@ class _MainPageState extends State<MainPage> {
                   ),
                   title: Text(
                     childText,
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(fontSize: 15),
                   ),
                 )),
           );
@@ -183,9 +183,10 @@ class _MainPageState extends State<MainPage> {
                     "pdf");
               },
               child: Text(
-                "Resume",
+                "RESUME",
                 style: GoogleFonts.montserrat(
                   fontWeight: FontWeight.w200,
+                  fontSize: 15,
                 ),
               ),
             ),
@@ -226,7 +227,7 @@ class _MainPageState extends State<MainPage> {
                     color: Colors.red,
                   ),
                   title: Text(
-                    "Resume",
+                    "RESUME",
                     style: GoogleFonts.montserrat(
                       fontWeight: FontWeight.w200,
                     ),

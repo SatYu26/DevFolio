@@ -1,10 +1,10 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import '../../constants.dart';
-import '../../widget/serviceCard.dart';
+import '../../widget/skillsCard.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ServiceMobile extends StatelessWidget {
+class SkillsMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
@@ -30,12 +30,12 @@ class ServiceMobile extends StatelessWidget {
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
-              child: ServiceCard(
+              child: SkillsCard(
                 cardWidth: width < 650 ? width * 0.8 : width * 0.5,
-                serviceIcon: kServicesIcons[i],
-                serviceTitle: kServicesTitles[i],
-                serviceDescription: kServicesDescriptions[i],
-                serviceLink: kServicesLinks[i],
+                skillsIcon: kSkillsIcons[i],
+                skillsTitle: kSkillsTitles[i],
+                skillsDescription: kSkillsDescriptions[i],
+                skillsLink: kSkillsLinks[i],
               ),
             ),
             options: CarouselOptions(

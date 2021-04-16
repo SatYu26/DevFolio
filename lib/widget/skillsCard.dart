@@ -3,34 +3,34 @@ import '../constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class ServiceCard extends StatefulWidget {
-  final String serviceIcon;
-  final String serviceTitle;
-  final String serviceDescription;
-  final String serviceLink;
+class SkillsCard extends StatefulWidget {
+  final String skillsIcon;
+  final String skillsTitle;
+  final String skillsDescription;
+  final String skillsLink;
   final double cardWidth;
   final double cardHeight;
 
-  const ServiceCard(
-      {@required this.serviceIcon,
-      this.serviceTitle,
-      this.serviceDescription,
-      this.serviceLink,
+  const SkillsCard(
+      {@required this.skillsIcon,
+      this.skillsTitle,
+      this.skillsDescription,
+      this.skillsLink,
       this.cardHeight,
       this.cardWidth});
 
   @override
-  _ServiceCardState createState() => _ServiceCardState();
+  _SkillsCardState createState() => _SkillsCardState();
 }
 
-class _ServiceCardState extends State<ServiceCard> {
+class _SkillsCardState extends State<SkillsCard> {
   bool isHover = false;
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return InkWell(
-      onTap: () => launch(widget.serviceLink),
+      onTap: () => launch(widget.skillsLink),
       onHover: (isHovering) {
         if (isHovering) {
           setState(() {
@@ -62,14 +62,14 @@ class _ServiceCardState extends State<ServiceCard> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              widget.serviceIcon,
+              widget.skillsIcon,
               height: height * 0.1,
             ),
             SizedBox(
               height: height * 0.02,
             ),
             Text(
-              widget.serviceTitle,
+              widget.skillsTitle,
               textAlign: TextAlign.center,
               style: GoogleFonts.montserrat(
                 fontSize: height * 0.02,
@@ -82,7 +82,7 @@ class _ServiceCardState extends State<ServiceCard> {
             ),
             Expanded(
               child: Text(
-                widget.serviceDescription,
+                widget.skillsDescription,
                 textAlign: TextAlign.center,
                 style: GoogleFonts.montserrat(
                     fontSize: height * 0.015,

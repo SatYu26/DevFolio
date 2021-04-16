@@ -18,7 +18,7 @@ class AboutDesktop extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(
           horizontal: width * 0.02, vertical: height * 0.02),
-      height: height,
+      height: height+50,
       color: Colors.grey[900],
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -31,8 +31,13 @@ class AboutDesktop extends StatelessWidget {
               letterSpacing: 1.0,
             ),
           ),
-          SizedBox(
-            height: height * 0.05,
+          Text(
+            "Get to know me :)\n",
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
+          ),
+          Text(
+            "Who am I ?\n",
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: kPrimaryColor, fontSize: 20),
           ),
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -77,7 +82,7 @@ class AboutDesktop extends StatelessWidget {
                 child: new Container(
                     margin: const EdgeInsets.only(left: 10.0, right: 10.0),
                     child: Divider(
-                      color: Colors.red,
+                      color: kPrimaryColor,
                       height: 36,
                     )),
               ),

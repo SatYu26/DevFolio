@@ -29,8 +29,16 @@ class AboutMobile extends StatelessWidget {
               letterSpacing: 1.0,
             ),
           ),
+          Text(
+            "Get to know me :)\n",
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
+          ),
+          Text(
+            "Who am I ?\n",
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: kPrimaryColor, fontSize: 20),
+          ),
           SizedBox(
-            height: height * 0.05,
+            height: height * 0.02,
           ),
           AboutMeText(
             textAlign: TextAlign.center,

@@ -20,7 +20,8 @@ class HomeTab extends StatelessWidget {
             right: width < 740 ? -width * 0.2 : -width * 0.1,
             child: Opacity(
               opacity: 0.8,
-              child: Image.asset('assets/1.png', height: height * 0.75),
+              child: Image.asset('assets/1.png', height: height * 0.75, colorBlendMode: BlendMode.color,
+                color: Colors.black87.withOpacity(0.1),)
             ),
           ),
           Container(

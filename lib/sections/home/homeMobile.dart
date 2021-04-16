@@ -26,7 +26,8 @@ class _HomeMobileState extends State<HomeMobile> {
             right: -width * 0.15,
             child: Opacity(
               opacity: 0.7,
-              child: Image.asset('assets/1.png', height: height * 0.65),
+              child: Image.asset('assets/1.png', height: height * 0.65, colorBlendMode: BlendMode.colorBurn,
+                color: Colors.black87.withOpacity(0.1),),
             ),
           ),
           Container(
@@ -45,7 +46,7 @@ class _HomeMobileState extends State<HomeMobile> {
                     ),
                     Image.asset(
                       "assets/hi.gif",
-                      height: height * 0.03,
+                      height: height * 0.03
                     ),
                   ],
                 ),

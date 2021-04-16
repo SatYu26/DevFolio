@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '../../animations/bottomAnimation.dart';
-import '../../widget/serviceCard.dart';
+import '../../widget/skillsCard.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../constants.dart';
 
-class ServiceDesktop extends StatelessWidget {
+class SkillsDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
@@ -35,39 +35,39 @@ class ServiceDesktop extends StatelessWidget {
                     : MainAxisAlignment.center,
                 children: [
                   WidgetAnimator(
-                    child: ServiceCard(
+                    child: SkillsCard(
                       cardWidth: width < 1200 ? width * 0.3 : width * 0.22,
                       cardHeight: width < 1200 ? height * 0.4 : height * 0.35,
-                      serviceIcon: kServicesIcons[0],
-                      serviceTitle: kServicesTitles[0],
-                      serviceDescription: kServicesDescriptions[0],
-                      serviceLink: kServicesLinks[0],
+                      skillsIcon: kSkillsIcons[0],
+                      skillsTitle: kSkillsTitles[0],
+                      skillsDescription: kSkillsDescriptions[0],
+                      skillsLink: kSkillsLinks[0],
                     ),
                   ),
                   SizedBox(
                     width: width * 0.03,
                   ),
                   WidgetAnimator(
-                    child: ServiceCard(
+                    child: SkillsCard(
                       cardWidth: width < 1200 ? width * 0.3 : width * 0.22,
                       cardHeight: width < 1200 ? height * 0.4 : height * 0.35,
-                      serviceIcon: kServicesIcons[1],
-                      serviceTitle: kServicesTitles[1],
-                      serviceDescription: kServicesDescriptions[1],
-                      serviceLink: kServicesLinks[1],
+                      skillsIcon: kSkillsIcons[1],
+                      skillsTitle: kSkillsTitles[1],
+                      skillsDescription: kSkillsDescriptions[1],
+                      skillsLink: kSkillsLinks[1],
                     ),
                   ),
                   SizedBox(
                     width: width * 0.03,
                   ),
                   WidgetAnimator(
-                    child: ServiceCard(
+                    child: SkillsCard(
                       cardWidth: width < 1200 ? width * 0.3 : width * 0.22,
                       cardHeight: width < 1200 ? height * 0.4 : height * 0.35,
-                      serviceIcon: kServicesIcons[2],
-                      serviceTitle: kServicesTitles[2],
-                      serviceDescription: kServicesDescriptions[2],
-                      serviceLink: kServicesLinks[2],
+                      skillsIcon: kSkillsIcons[2],
+                      skillsTitle: kSkillsTitles[2],
+                      skillsDescription: kSkillsDescriptions[2],
+                      skillsLink: kSkillsLinks[2],
                     ),
                   ),
                 ],
@@ -79,26 +79,26 @@ class ServiceDesktop extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   WidgetAnimator(
-                    child: ServiceCard(
+                    child: SkillsCard(
                       cardWidth: width < 1200 ? width * 0.3 : width * 0.22,
                       cardHeight: width < 1200 ? height * 0.4 : height * 0.35,
-                      serviceIcon: kServicesIcons[3],
-                      serviceTitle: kServicesTitles[3],
-                      serviceDescription: kServicesDescriptions[3],
-                      serviceLink: kServicesLinks[3],
+                      skillsIcon: kSkillsIcons[3],
+                      skillsTitle: kSkillsTitles[3],
+                      skillsDescription: kSkillsDescriptions[3],
+                      skillsLink: kSkillsLinks[3],
                     ),
                   ),
                   SizedBox(
                     width: width * 0.03,
                   ),
                   WidgetAnimator(
-                    child: ServiceCard(
+                    child: SkillsCard(
                       cardWidth: width < 1200 ? width * 0.3 : width * 0.22,
                       cardHeight: width < 1200 ? height * 0.4 : height * 0.35,
-                      serviceIcon: kServicesIcons[4],
-                      serviceTitle: kServicesTitles[4],
-                      serviceDescription: kServicesDescriptions[4],
-                      serviceLink: kServicesLinks[4],
+                      skillsIcon: kSkillsIcons[4],
+                      skillsTitle: kSkillsTitles[4],
+                      skillsDescription: kSkillsDescriptions[4],
+                      skillsLink: kSkillsLinks[4],
                     ),
                   ),
                 ],
