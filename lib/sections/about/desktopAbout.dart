@@ -67,8 +67,8 @@ class AboutDesktop extends StatelessWidget {
                     side: BorderSide(color: kPrimaryColor)),
                 onPressed: () {
                   html.window.open(
-                      'https://drive.google.com/uc?export=view&id=1pvTu12I9fJDJ_KerU2q17FqmfHmjTKeK',
-                      // "https://drive.google.com/file/d/1pvTu12I9fJDJ_KerU2q17FqmfHmjTKeK/view?usp=sharing"
+                      'https://drive.google.com/uc?export=view&id=15KasRRF-dGRDHHxTLptFjMCZBk37zIUe',
+                      // "https://drive.google.com/file/d/15KasRRF-dGRDHHxTLptFjMCZBk37zIUe/view?usp=sharing"
                       "pdf");
                 },
                 child: Text(

@@ -55,7 +55,7 @@ class AboutMobile extends StatelessWidget {
                 side: BorderSide(color: kPrimaryColor)),
             onPressed: () {
               launchURL(
-                  "https://drive.google.com/uc?export=view&id=1pvTu12I9fJDJ_KerU2q17FqmfHmjTKeK");
+                  "https://drive.google.com/file/d/15KasRRF-dGRDHHxTLptFjMCZBk37zIUe");
             },
             child: Text(
               "Resume",
