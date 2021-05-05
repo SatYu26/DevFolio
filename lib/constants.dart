@@ -6,7 +6,7 @@ Color kPrimaryColor = Color(0xffC0392B);
 
 // Social Media
 const kSocialIcons = [
-  "https://img.icons8.com/ios-filled/480/ffffff/important-mail.png",
+  "https://img.icons8.com/ios-filled/480/ffffff/mail.png",
   "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
   "https://img.icons8.com/android/480/ffffff/twitter.png",
   "https://img.icons8.com/metro/308/ffffff/linkedin.png",
