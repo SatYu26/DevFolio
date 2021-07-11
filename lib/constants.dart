@@ -28,11 +28,7 @@ void launchURL(String _url) async =>
     await canLaunch(_url) ? await launch(_url) : throw 'Could not launch $_url';
 
 // Community
-final kCommunityLogo = [
-  'assets/srm.png',
-  'assets/mlsa.png',
-  'assets/dsc.png'
-];
+final kCommunityLogo = ['assets/srm.png', 'assets/mlsa.png', 'assets/dsc.png'];
 
 final kCommunityLinks = [
   "https://www.srmist.edu.in/",
@@ -43,7 +39,7 @@ final kCommunityLinks = [
 // Tools & Tech
 final kTools = ["Flutter", "Dart", "Python", "JavaScript", "C++"];
 
-final kTools1 = ["React.js", "HTML", "CSS",  "Node.js", "ML"];
+final kTools1 = ["React.js", "HTML", "CSS", "Node.js", "ML"];
 
 // services
 final kSkillsIcons = [
@@ -81,36 +77,46 @@ final kSkillsLinks = [
 // projects
 final kProjectsBanner = [
   "assets/projects/flashB.png",
-  "assets/projects/wearB.png",
   "assets/projects/maskB.png",
+  "assets/projects/pokedex.jpg",
+  "assets/projects/wearB.png",
+  "assets/projects/3D-B.png",
   "assets/projects/catchMeB.png",
 ];
 
 final kProjectsIcons = [
   "assets/projects/flash.png",
-  "assets/projects/wearos.png",
   "assets/projects/mask.png",
+  "assets/projects/pokeball.png",
+  "assets/projects/wearos.png",
+  "assets/projects/www.png",
   "assets/projects/portfolio.png",
 ];
 
 final kProjectsTitles = [
   "Flash Type",
-  "Wear OS",
   "Mask Detection App",
+  "Pokedex",
+  "Wear OS",
+  "3-D Portfolio",
   "Catch Me Portfolio",
 ];
 
 final kProjectsDescriptions = [
   "It is a Web App created using React.js to check the typing speed and accuracy of the person.",
-  "Our application is the world’s first deployment of an idea based on network radio where we provide independent radio stations for a smartwatch running Wear OS.",
   "Here I’ve developed an application to detect face masks in the smartphone. This application works in real time.",
+  "A simple pokedex application made with React + TypeScript.",
+  "Our application is the world’s first deployment of an idea based on network radio where we provide independent radio stations for a smartwatch running Wear OS.",
+  "A Amazing 3-D Portfolio website created using Three.js.",
   "It is Portfolio website created using simple HTML, CSS and JavaScript but wait! There some twist in it. Visit it and have a look.",
 ];
 
 final kProjectsLinks = [
   "https://github.com/SatYu26/Flash-Type",
-  "https://github.com/SatYu26/Wear-OS-Radio-Flutter",
   "https://github.com/SatYu26/2021-Solution-Challenge-Submission",
+  "https://github.com/SatYu26/Pokedex",
+  "https://github.com/SatYu26/Wear-OS-Radio-Flutter",
+  "https://github.com/SatYu26/Three.js-3D-Portfolio",
   "https://github.com/SatYu26/Catch-Me-Portfolio",
 ];
 
