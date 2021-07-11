@@ -31,7 +31,7 @@ class AboutMeText extends StatelessWidget {
         ),
         TextSpan(
           text:
-          "I have been developing Android apps for over 1.5 years now, and have recently created many React based projects also. I have worked in teams for various startups as an Intern and helped them in launching their prototypes, as open source contributor at GitHub and got valuable learning experience.\n\nRight now I'm in third year of my undergraduate degree at ",
+          "I have been developing Android apps for over 1.5 years now, and have recently created many React based projects also. I have worked in teams for various startups as an Intern and helped them in launching their prototypes, as open source contributor at GitHub and got valuable learning experience.\n\nRight now I'm in Final year of my undergraduate degree at ",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),
