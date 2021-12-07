@@ -17,7 +17,7 @@ const kSocialIcons = [
 const kSocialLinks = [
   "mailto:goyalsatyam8@gmail.com",
   "https://www.instagram.com/s.a.t.y.u_/",
-  "https://twitter.com/SatYug26",
+  "https://twitter.com/SatyuGoyal",
   "https://www.linkedin.com/in/satyu26/",
   "https://github.com/SatYu26",
   "https://leetcode.com/satyu/",
@@ -37,9 +37,9 @@ final kCommunityLinks = [
 ];
 
 // Tools & Tech
-final kTools = ["Flutter", "Dart", "Python", "JavaScript", "C++"];
+final kTools = ["JavaScript", "Python", "Java", "C++", "Flutter"];
 
-final kTools1 = ["React.js", "HTML", "CSS", "Node.js", "ML"];
+final kTools1 = ["ReactJS", "MERN Stack", "SQL", "DevOps", "ML"];
 
 // services
 final kSkillsIcons = [
@@ -52,7 +52,7 @@ final kSkillsIcons = [
 
 final kSkillsTitles = [
   "Flutter App Development",
-  "React Web Development",
+  "MERN Development",
   "Rapid Prototyping",
   "Machine Learning",
   "Open Source - GitHub",
@@ -60,7 +60,7 @@ final kSkillsTitles = [
 
 final kSkillsDescriptions = [
   "I am experienced and skilled in app development using Flutter, also i am specially good at UI/UX designing part, and i am trying to improve my skills more and design Complete apps.",
-  "Although it has not been too long since i started working on React.js, but still i have gained genuine skills and experience in web development through various projects.",
+  "I have good working experience in MERN Stack and i have gained genuine skills and experience in web development through various projects and Internships.",
   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
   "I love doing Deep Learning and Machine Learning, i am not too much skilled in this but i can definitely create some great work with the experience and knowledge i have gathered through numerous projects.",
   "I love working for the community and give my contribution towards greater good, therefore i have been quite active in community and have made numerous contributions to many communities",
