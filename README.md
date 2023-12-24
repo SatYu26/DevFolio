@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-The first iteration of <a href="https://satyamgoyal.social/" target="_blank">satyamgoyal.social</a> currently deployed <a href="https://satyamgoyal.social/" target="_blank">here</a>! 🎉</p>
+The first iteration of <a href="https://satyu26.github.io/DevFolio/" target="_blank">https://satyu26.github.io/DevFolio/</a> currently deployed <a href="https://satyu26.github.io/DevFolio/" target="_blank">here</a>! 🎉</p>
 
 <p align="center">
 crafted with <span style="color: #8b0000;">&hearts;</span> and Flutter by Satyam Goyal
